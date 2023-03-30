@@ -1,4 +1,5 @@
-1) Download the Market-1501 dataset from "https://zheng-lab.cecs.anu.edu.au/Project/project_reid.html".
+1) Download the Market-1501 dataset from https://zheng-lab.cecs.anu.edu.au/Project/project_reid.html.
+2) Create two folders checkpoint and data, then put the downloaded dataset to the folder data.
 2) Run python3 process_img.py to process the downloaded dataset.
 3) Run python3 train.py to train the RepVGG model on the Market-1501 dataset.
 4) Run python3 test.py to test the saved model on the Market-1501 dataset.
